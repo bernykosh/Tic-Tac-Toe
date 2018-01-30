@@ -1,11 +1,6 @@
 --------------------------------------------------------
---STUDENT NAME  :   BERNEDETTE KOSHILA PERERA           
---STUDENT ID    :   10449314                             
---UNIT TITLE    :   MOBILE APPLICATIONS DEVELOPMENT     
---UNIT CODE     :   CSG3303                            
---ASSIGNMENT 02 :   CUMULATIVE MODIFICATION OF CODE       
---CAMPUS        :   ACBT / COLOMBO    
---SCENE 		:	GAME SCORES SCREEN                
+-- Here handles the scores of the player and the bot.
+-- Displays the Wins, Looses, Draws of the player and the bot
 --------------------------------------------------------
 
 local composer = require( "composer" )
@@ -116,9 +111,9 @@ function scene:create( event )
 	 -- Load the previous scores or the scores that have been cleared
    		loadScores()
 
------------------------      ------------------------------
---      				TITLES         			 		 --
------------------------------------------------------------
+-----------------------------------------------------
+--      		TITLES         		   --
+-----------------------------------------------------
 --- Background Image      
     local background = display.newImageRect( sceneGroup, "background.png", 400, 800 )
     background.x = display.contentCenterX
@@ -151,9 +146,9 @@ function scene:create( event )
 	local drawsHeader = display.newText( sceneGroup, "Draws", 285, 130, native.systemFontBold, 25 )
 	drawsHeader:setFillColor(0.8,0,0.3) 
 
------------------------      ------------------------------
---      		  DISPLAYING SCORES         			 --
------------------------------------------------------------
+-----------------------------------------------------
+--      	DISPLAYING SCORES    		   --
+-----------------------------------------------------
 --- Scores for EASY LEVEL
  	local easy1 = display.newText( scoreCountgroup, winE, 130, 180, native.systemFontBold, 25 )	--Wins for Easy
 	easy1:setFillColor(0.1,0.1,0.4) 
