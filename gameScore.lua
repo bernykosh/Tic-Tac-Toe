@@ -1,6 +1,7 @@
 --------------------------------------------------------
--- Here handles the scores of the player and the bot.
+-- Here handles the implementation of scores of the player.
 -- Displays the Wins, Losses, Draws of the player.
+-- SCENE : GAME SCORES SCREEN    
 --------------------------------------------------------
 
 local composer = require( "composer" )
