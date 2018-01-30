@@ -1,6 +1,6 @@
 --------------------------------------------------------
 -- Here handles the scores of the player and the bot.
--- Displays the Wins, Looses, Draws of the player and the bot
+-- Displays the Wins, Losses, Draws of the player.
 --------------------------------------------------------
 
 local composer = require( "composer" )
