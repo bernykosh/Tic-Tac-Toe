@@ -1,11 +1,6 @@
 -----------------------------------------------------------------
---STUDENT NAME  :   BERNEDETTE KOSHILA PERERA           
---STUDENT ID    :   10449314                             
---UNIT TITLE    :   MOBILE APPLICATIONS DEVELOPMENT     
---UNIT CODE     :   CSG3303                             
---ASSIGNMENT 02 :   CUMULATIVE MODIFICATION OF CODE      
---CAMPUS        :   ACBT / COLOMBO
---SCENE 		:	MENU SCREEN                     
+-- Implementation of the Menu screen of the game.
+-- SCENE : MENU SCREEN                     
 -----------------------------------------------------------------
 
 local composer = require( "composer" )
