@@ -1,12 +1,6 @@
---------------------------------------------------------
---STUDENT NAME  :   BERNEDETTE KOSHILA PERERA           
---STUDENT ID    :   10449314                             
---UNIT TITLE    :   MOBILE APPLICATIONS DEVELOPMENT     
---UNIT CODE     :   CSG3303                            
---ASSIGNMENT 02 :   CUMULATIVE MODIFICATION OF CODE       
---CAMPUS        :   ACBT / COLOMBO    
---SCENE 		:	LEVEL SELECTING SCREEN               
---------------------------------------------------------
+----------------------------------------
+-- SCENE  : LEVEL SELECTING SCREEN               
+----------------------------------------
 local composer = require( "composer" )
 local widget = require( "widget" )
 local scene = composer.newScene()
