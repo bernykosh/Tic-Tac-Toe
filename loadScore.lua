@@ -1,12 +1,7 @@
---------------------------------------------------------
---STUDENT NAME  :   BERNEDETTE KOSHILA PERERA           
---STUDENT ID    :   10449314                             
---UNIT TITLE    :   MOBILE APPLICATIONS DEVELOPMENT     
---UNIT CODE     :   CSG3303                            
---ASSIGNMENT 02 :   CUMULATIVE MODIFICATION OF CODE       
---CAMPUS        :   ACBT / COLOMBO    
---SCENE 		:	SCORES CLEARING SCREEN                
---------------------------------------------------------
+-----------------------------------------------------------------
+-- The screen will load when the player clears the score board.
+-- SCENE : SCORES CLEARING SCREEN                
+------------------------------------------------------------------
 
 local composer = require( "composer" )
 local scene = composer.newScene()
